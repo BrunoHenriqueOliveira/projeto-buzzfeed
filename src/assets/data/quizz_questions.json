@@ -2,54 +2,108 @@
   "title":"Você seria um heroi ou vilão ?",
   "questions":[
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "Qual mundo você gostaria de explorar?",
+      "options": [
+        { "id": 1, "name": "Um reino mágico com castelos e dragões", "alias": "F" },
+        { "id": 2, "name": "Uma colônia espacial em um planeta distante", "alias": "S" },
+        { "id": 3, "name": "Uma civilização perdida no fundo do oceano", "alias": "F" },
+        { "id": 4, "name": "Uma realidade virtual hiper-realista", "alias": "S" }
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "Qual arma você escolheria para uma batalha?",
+      "options": [
+        { "id": 1, "name": "Uma espada encantada forjada por anões", "alias": "F" },
+        { "id": 2, "name": "Um sabre de luz ou arma de plasma", "alias": "S" },
+        { "id": 3, "name": "Um arco e flecha que nunca erra o alvo", "alias": "F" },
+        { "id": 4, "name": "Uma armadura exoesquelética com armas avançadas", "alias": "S" }
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "Quem você gostaria de ter como aliado?",
+      "options": [
+        { "id": 1, "name": "Um feiticeiro sábio e poderoso", "alias": "F" },
+        { "id": 2, "name": "Um robô superinteligente e estrategista", "alias": "S" },
+        { "id": 3, "name": "Um dragão que pode se comunicar com você", "alias": "F" },
+        { "id": 4, "name": "Um alienígena com habilidades telepáticas", "alias": "S" }
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "Como você prefere viajar?",
+      "options": [
+        { "id": 1, "name": "Montado em um grifo ou dragão", "alias": "F" },
+        { "id": 2, "name": "A bordo de uma nave interestelar", "alias": "S" },
+        { "id": 3, "name": "Através de portais místicos", "alias": "F" },
+        { "id": 4, "name": "Com um traje de voo super tecnológico", "alias": "S" }
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "Qual vilão parece mais desafiador?",
+      "options": [
+        { "id": 1, "name": "Um necromante que controla um exército de mortos-vivos", "alias": "F" },
+        { "id": 2, "name": "Uma inteligência artificial que quer dominar a humanidade", "alias": "S" },
+        { "id": 3, "name": "Um rei tirano que controla um império sombrio", "alias": "F" },
+        { "id": 4, "name": "Um cientista louco que criou uma tecnologia perigosa", "alias": "S" }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "O que mais te fascina?",
+      "options": [
+        { "id": 1, "name": "Magia e forças místicas", "alias": "F" },
+        { "id": 2, "name": "Tecnologia avançada e o futuro", "alias": "S" },
+        { "id": 3, "name": "Criaturas míticas e seus mistérios", "alias": "F" },
+        { "id": 4, "name": "Exploração do espaço profundo", "alias": "S" }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Qual dessas histórias te atrai mais?",
+      "options": [
+        { "id": 1, "name": "Um jovem escolhido destinado a derrotar um grande mal", "alias": "F" },
+        { "id": 2, "name": "Um explorador espacial que encontra uma civilização alienígena", "alias": "S" },
+        { "id": 3, "name": "Um grupo de heróis em uma jornada épica", "alias": "F" },
+        { "id": 4, "name": "Uma missão para salvar a Terra de um colapso tecnológico", "alias": "S" }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Se você tivesse um poder especial, qual seria?",
+      "options": [
+        { "id": 1, "name": "Controlar os elementos da natureza", "alias": "F" },
+        { "id": 2, "name": "Manipular a gravidade ou o tempo", "alias": "S" },
+        { "id": 3, "name": "Transformar qualquer coisa com magia", "alias": "F" },
+        { "id": 4, "name": "Interagir diretamente com máquinas e sistemas", "alias": "S" }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Qual cenário seria o mais empolgante para você?",
+      "options": [
+        { "id": 1, "name": "Uma floresta mágica cheia de criaturas místicas", "alias": "F" },
+        { "id": 2, "name": "Uma metrópole futurista cheia de carros voadores", "alias": "S" },
+        { "id": 3, "name": "Uma fortaleza medieval cercada por mistérios", "alias": "F" },
+        { "id": 4, "name": "Uma estação espacial orbitando um buraco negro", "alias": "S" }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Como você vê o destino dos heróis?",
+      "options": [
+        { "id": 1, "name": "Grandes sacrifícios para cumprir uma profecia", "alias": "F" },
+        { "id": 2, "name": "Superar desafios tecnológicos e filosóficos para mudar o universo", "alias": "S" },
+        { "id": 3, "name": "Ser lembrado como uma lenda por séculos", "alias": "F" },
+        { "id": 4, "name": "Tornar-se um ícone da evolução humana", "alias": "S" }
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "F": "Você provavelmente gosta mais de Fantasia e Aventura! Mundos mágicos, reinos encantados e jornadas heroicas te fascinam.",
+    "S": "Você provavelmente gosta mais de Ficção Científica e Sci-Fi! Exploração espacial, inteligência artificial e futuros tecnológicos te cativam."
   }
 }
