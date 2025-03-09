@@ -61,6 +61,7 @@
 }
 
 .quizz_results{
+  font-size: 25px;
   width: 100%;
   height: 350px;
   background-color: #1F0539;

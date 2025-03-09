@@ -1,59 +1,61 @@
-# ProjetoBuzzfeed
+# BuzzFeed Clone - Quiz Interativo com Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+## Sobre o Projeto
 
-## Development server
+Este é um clone do popular site de perguntas e respostas **BuzzFeed**, desenvolvido utilizando o framework **Angular**. O objetivo do projeto é permitir que os usuários respondam a questionários interativos e recebam um resultado baseado em suas respostas, assim como no BuzzFeed original.
 
-To start a local development server, run:
+## Demonstração
 
+![imagem da Tela](public/tela-BuzzFeed.jpeg)
+
+## Funcionalidades
+
+✅ Responder quizzes interativos<br>
+✅ Exibição dinâmica de perguntas e opções de resposta<br>
+✅ Cálculo automático do resultado baseado nas respostas<br>
+✅ Interface intuitiva e responsiva<br>
+✅ Estruturado com componentes reutilizáveis do Angular<br>
+
+## Tecnologias Utilizadas
+
+- **Angular**: Framework principal para a construção do front-end
+- **TypeScript**: Linguagem utilizada para tipagem e melhor estruturação do código
+- **HTML & CSS**: Para a estilização e estrutura das páginas
+- **JSON**: Para armazenar as perguntas e respostas dos quizzes
+
+## Como Rodar o Projeto
+
+1️⃣ Clone este repositório:
 ```bash
-ng serve
+  git clone https://github.com/BrunoHenriqueOliveira/projeto-buzzfeed
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
+2️⃣ Acesse a pasta do projeto:
 ```bash
-ng generate component component-name
+  cd buzzfeed-clone-angular
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
+3️⃣ Instale as dependências:
 ```bash
-ng generate --help
+  npm install
 ```
 
-## Building
-
-To build the project run:
-
+4️⃣ Inicie o servidor de desenvolvimento:
 ```bash
-ng build
+  ng serve
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
+5️⃣ Acesse no navegador:
+```
+  http://localhost:4200/
 ```
 
-## Running end-to-end tests
+## Melhorias Futuras
 
-For end-to-end (e2e) testing, run:
+🔹 Opção para criação de novos quizzes pelo usuário<br>
+🔹 Integração com um banco de dados para salvar resultados<br>
+🔹 Animações e melhorias na UI/UX
 
-```bash
-ng e2e
-```
+## Licença
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
